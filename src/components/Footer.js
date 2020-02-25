@@ -23,7 +23,7 @@ type Props = State &
 export const footerCSS = ({ isModal, interactionIsIdle }: State) => ({
   alignItems: 'top',
   bottom: isModal ? 0 : null,
-  color: isModal ? 'rgba(255, 255, 255, 0.9)' : '#666',
+  color: isModal ? 'rgba(0, 0, 0, 0.9)' : '#666',
   display: 'flex ',
   flex: '0 0 auto',
   fontSize: 13,

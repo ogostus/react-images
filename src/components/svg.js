@@ -23,12 +23,12 @@ const Svg = ({ size, ...props }: Props) => (
 
 export const ChevronLeft = ({ size = 32, ...props }: Props) => (
   <Svg size={size} {...props}>
-    <path d="M15.422 16.078l-1.406 1.406-6-6 6-6 1.406 1.406-4.594 4.594z" />
+    <path d="M0 11.871l5-3.871v2h19v4h-19v2z" />
   </Svg>
 );
 export const ChevronRight = ({ size = 32, ...props }: Props) => (
   <Svg size={size} {...props}>
-    <path d="M9.984 6l6 6-6 6-1.406-1.406 4.594-4.594-4.594-4.594z" />
+    <path d="M24 11.871l-5-4.871v3h-19v4h19v3z" />
   </Svg>
 );
 export const Close = ({ size = 32, ...props }: Props) => (

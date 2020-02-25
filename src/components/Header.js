@@ -107,7 +107,7 @@ export const headerButtonCSS = () => ({
   alignItems: 'center',
   background: 0,
   border: 0,
-  color: 'rgba(255, 255, 255, 0.75)',
+  color: 'rgba(0, 0, 0, 0.75)',
   cursor: 'pointer',
   display: 'inline-flex ',
   height: 44,

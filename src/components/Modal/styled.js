@@ -17,7 +17,7 @@ type BlanketProps = BlanketState &
   };
 
 export const blanketCSS = ({ isFullscreen }: BlanketState) => ({
-  backgroundColor: isFullscreen ? 'black' : 'rgba(0, 0, 0, 0.8)',
+  backgroundColor: isFullscreen ? 'black' : 'rgba(255, 255, 255, 0.6)',
   bottom: 0,
   left: 0,
   position: 'fixed',

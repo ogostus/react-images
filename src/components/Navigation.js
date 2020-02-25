@@ -61,7 +61,7 @@ export const navigationItemCSS = ({ align }: ItemState) => ({
   background: 'rgba(255, 255, 255, 0.2)',
   border: 0,
   borderRadius: '50%',
-  color: 'white',
+  color: 'black',
   cursor: 'pointer',
   display: 'flex ',
   fontSize: 'inherit',
